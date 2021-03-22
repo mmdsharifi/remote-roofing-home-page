@@ -131,7 +131,7 @@ span {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%);
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/bg_to5se2.png");
   opacity: 0.99;
   z-index: 4;
 }
@@ -352,6 +352,13 @@ nav .mobile-menu {
 }
 
 @media only screen and (max-width: 600px) {
+  .section.section-residential:before {
+    background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/bg-mobile_dafmnf.jpg");
+    opacity: 0.99;
+    z-index: 4;
+    background-size: cover;
+    background-position: left;
+  }
   .section.section-solar {
     background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425223/solar-mobile_uy7nop.jpg");
     background-size: cover;
