@@ -143,22 +143,38 @@ span {
   transform: translate3d(0, 0, 0);
 }
 .section.section-solar {
+<<<<<<< HEAD
   background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/solar_xws2k4.png");
+=======
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("../img/solar.jpg");
+>>>>>>> 1390a6fe001c79ba3e76d74e2712e91734c0d874
   background-size: cover;
   background-position: center center;
 }
 .section.section-tile {
+<<<<<<< HEAD
   background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/tile_eobfng.png");
+=======
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("../img/tile.jpg");
+>>>>>>> 1390a6fe001c79ba3e76d74e2712e91734c0d874
   background-size: cover;
   background-position: center center;
 }
 .section.section-metal {
+<<<<<<< HEAD
   background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/metal_uualvm.png");
+=======
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("../img/metal.jpg");
+>>>>>>> 1390a6fe001c79ba3e76d74e2712e91734c0d874
   background-size: cover;
   background-position: center center;
 }
 .section.section-footer {
+<<<<<<< HEAD
   background: url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416076/footer_igjqu4.png");
+=======
+  background: url("../img/footer.jpg");
+>>>>>>> 1390a6fe001c79ba3e76d74e2712e91734c0d874
 }
 .section.section-footer .content {
   align-items: center;
