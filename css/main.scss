@@ -1,5 +1,41 @@
+@font-face {
+  font-family: "AirbnbCerealBlack";
+  src: local("AirbnbCerealBlack"),
+    url(../fonts/AirbnbCerealBlack.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealBold";
+  src: local("AirbnbCerealBold"),
+    url(../fonts/AirbnbCerealBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealBook";
+  src: local("AirbnbCerealBook"),
+    url(../fonts/AirbnbCerealBook.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealExtraBold";
+  src: local("AirbnbCerealExtraBold"),
+    url(../fonts/AirbnbCerealExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealLight";
+  src: local("AirbnbCerealLight"),
+    url(../fonts/AirbnbCerealLight.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealMedium";
+  src: local("AirbnbCerealMedium"),
+    url(../fonts/AirbnbCerealMedium.woff) format("woff");
+}
+
 body {
-  font-family: 'Airbnb Cereal App';
+  font-family: "AirbnbCerealMedium";
   color: #fff;
   margin: 0;
   padding: 0;
@@ -101,7 +137,7 @@ span {
 
   &.section-residential {
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -140,7 +176,8 @@ span {
         rgba(0, 13, 47, 0) 90%,
         rgba(0, 14, 49, 0.8) 100%
       ),
-      url('../img/solar.png');
+      // url("../img/solar.png");
+      url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/solar_xws2k4.png");
     background-size: cover;
     background-position: center center;
   }
@@ -155,7 +192,9 @@ span {
         rgba(0, 13, 47, 0) 90%,
         rgba(0, 14, 49, 0.8) 100%
       ),
-      url('../img/tile.png');
+      // url("../img/tile.png");
+      url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/tile_eobfng.png");
+
     background-size: cover;
     background-position: center center;
   }
@@ -170,12 +209,18 @@ span {
         rgba(0, 13, 47, 0) 90%,
         rgba(0, 14, 49, 0.8) 100%
       ),
-      url('../img/metal.png');
+      // url("../img/metal.png");
+      url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/metal_uualvm.png");
+
     background-size: cover;
     background-position: center center;
   }
   &.section-footer {
-    background: url('../img/footer.png');
+    background: 
+  
+    // url("../img/footer.png");
+      url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416076/footer_igjqu4.png");
+
     .content {
       align-items: center;
       justify-content: center;
