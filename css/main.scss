@@ -450,7 +450,7 @@ span {
         ),
         url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425223/solar-mobile_uy7nop.jpg");
       background-size: cover;
-      background-position: center center;
+      background-position: right;
     }
     &.section-tile {
       background: linear-gradient(
@@ -466,7 +466,7 @@ span {
         url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/tile-mobile_kqzcgs.jpg");
 
       background-size: cover;
-      background-position: center center;
+      background-position: left;
     }
     &.section-metal {
       background: linear-gradient(
@@ -482,7 +482,7 @@ span {
         url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/metal-mobile_q60n8s.jpg");
 
       background-size: cover;
-      background-position: center center;
+      background-position: right;
     }
     &.section-footer {
       background: url("https://res.cloudinary.com/remoteroofing/image/upload/v1616425384/footer-mobile_yqr0nq.jpg");
