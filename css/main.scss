@@ -123,6 +123,11 @@ span {
       text-shadow: 0px 4px 8px rgba(7, 6, 30, 0.05),
         0px 8px 16px rgba(51, 51, 51, 0.1);
     }
+    .arrow {
+      position: absolute;
+      right: calc(50% - 1em);
+      bottom: -1.6em;
+    }
   }
   .cta {
     width: calc(100% - 1em);
@@ -146,16 +151,16 @@ span {
       background: linear-gradient(
           0deg,
           rgba(0, 13, 47, 0) 55.07%,
-          rgba(0, 14, 49, 0.8) 90.5%
+          rgba(0, 14, 49, 0.4) 90.5%
         ),
         linear-gradient(
           180.08deg,
           rgba(0, 13, 47, 0) 90%,
-          rgba(0, 14, 49, 0.8) 100%
+          rgba(0, 14, 49, 0.4) 100%
         ),
         url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/bg_to5se2.png');
       background-size: cover;
-      background-position: center center;
+      background-position: center 90%;
       z-index: 4;
     }
     .content {
@@ -423,6 +428,26 @@ span {
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+.bounce {
+  animation: bounce 2s both infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
 
