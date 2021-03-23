@@ -1,0 +1,33 @@
+// buttons
+.button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 3em;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &-primary {
+    background-color: #0158b7;
+    &:hover {
+      background-color: darken(#0158b7, 10%);
+      box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.05),
+        0px 2px 4px rgba(51, 51, 51, 0.1);
+    }
+  }
+
+  &-secondary {
+    border: 2px solid #fff;
+    background: transparent;
+    transition: all 0.3s;
+    &:hover {
+      background: #fff;
+      color: #0158b7;
+    }
+  }
+}
