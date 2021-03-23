@@ -1,0 +1,62 @@
+.fade-in-fwd {
+  animation: fade-in-fwd 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.fade-in-left {
+  animation: fade-in-left 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-right {
+  animation: fade-in-right 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bounce {
+  animation: bounce 2s both infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
