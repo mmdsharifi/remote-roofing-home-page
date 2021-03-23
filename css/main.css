@@ -179,7 +179,7 @@ span {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.4) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.4) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/bg_to5se2.png");
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("../img/home.jpg");
   background-size: cover;
   background-position: center 90%;
   z-index: 4;
@@ -207,7 +207,7 @@ span {
 }
 
 .section.section-metal {
-  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/metal_uualvm.png");
+  background: linear-gradient(0deg, rgba(0, 13, 47, 0) 55.07%, rgba(0, 14, 49, 0.8) 90.5%), linear-gradient(180.08deg, rgba(0, 13, 47, 0) 90%, rgba(0, 14, 49, 0.8) 100%), url("../img/metal.jpg");
   background-size: cover;
   background-position: center center;
 }
