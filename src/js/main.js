@@ -1,9 +1,9 @@
 var myFullpage = new fullpage("#fullpage", {
     autoScrolling: true,
     navigation: true,
-    responsiveWidth: 900,
-    responsiveHeight: 560,
-    responsiveSlides: true,
+    // responsiveWidth: 900,
+    // responsiveHeight: 560,
+    // responsiveSlides: true,
     navigationTooltips: [
         "Residential",
         "Solar",

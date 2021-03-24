@@ -4,7 +4,7 @@
   "description": "home page of remote roofing site",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync . --tunnel --watch",
+    "demo": "browser-sync dist --tunnel",
     "dev": "parcel serve ./src/index.html",
     "prod": "parcel build ./src/index.html"
   },
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/mmdsharifi/remote-roofing-home-page-v2#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
     "browser-sync": "^2.26.14",
     "parcel": "^2.0.0-beta.2"
   }

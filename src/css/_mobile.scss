@@ -15,11 +15,10 @@
             rgba(0, 13, 47, 0) 90%,
             rgba(0, 14, 49, 0.8) 100%
           ),
-          url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/bg-mobile_dafmnf.jpg');
-        opacity: 0.99;
-        z-index: 4;
+          url('../img/home-mobile.jpg');
         background-size: cover;
-        background-position: left;
+        background-position: center 40%;
+        height: 100vh;
       }
     }
     &.section-solar {

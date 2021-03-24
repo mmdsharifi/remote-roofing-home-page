@@ -1,5 +1,4 @@
 @media only screen and (max-width: 868px) {
-
   .section {
     h1 {
       margin-top: 4.5rem;
@@ -7,6 +6,74 @@
     }
     h3 {
       font-size: 16px;
+    }
+    &.section-residential {
+      &:before {
+        background: linear-gradient(
+            0deg,
+            rgba(0, 13, 47, 0) 55.07%,
+            rgba(0, 14, 49, 0.8) 90.5%
+          ),
+          linear-gradient(
+            180.08deg,
+            rgba(0, 13, 47, 0) 90%,
+            rgba(0, 14, 49, 0.8) 100%
+          ),
+          url('../img/home-mobile.jpg');
+        background-size: cover;
+        background-position: center 40%;
+        height: 100vh;
+      }
+    }
+    &.section-solar {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 13, 47, 0) 55.07%,
+          rgba(0, 14, 49, 0.8) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.8) 100%
+        ),
+        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425223/solar-mobile_uy7nop.jpg');
+      background-size: cover;
+      background-position: 70% 100%;
+    }
+    &.section-tile {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 13, 47, 0) 55.07%,
+          rgba(0, 14, 49, 0.8) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.8) 100%
+        ),
+        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/tile-mobile_kqzcgs.jpg');
+
+      background-size: cover;
+      background-position: left;
+    }
+    &.section-metal {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 13, 47, 0) 55.07%,
+          rgba(0, 14, 49, 0.8) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.8) 100%
+        ),
+        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/metal-mobile_q60n8s.jpg');
+
+      background-size: cover;
+      background-position: 80% 40%;
+    }
+    &.section-footer {
+      background: url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425384/footer-mobile_yqr0nq.jpg');
     }
   }
 
