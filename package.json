@@ -2,7 +2,6 @@
   "name": "remote-roofing-homepage",
   "version": "1.0.0",
   "description": "home page of remote roofing site",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync . --tunnel --watch",
