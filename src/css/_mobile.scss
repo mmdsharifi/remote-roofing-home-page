@@ -22,54 +22,61 @@
       }
     }
     &.section-solar {
-      background: linear-gradient(
-          0deg,
-          rgba(0, 13, 47, 0) 55.07%,
-          rgba(0, 14, 49, 0.8) 90.5%
-        ),
-        linear-gradient(
-          180.08deg,
-          rgba(0, 13, 47, 0) 90%,
-          rgba(0, 14, 49, 0.8) 100%
-        ),
-        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425223/solar-mobile_uy7nop.jpg');
-      background-size: cover;
-      background-position: 70% 100%;
+      &:before {
+        background: linear-gradient(
+            0deg,
+            rgba(0, 13, 47, 0) 55.07%,
+            rgba(0, 14, 49, 0.8) 90.5%
+          ),
+          linear-gradient(
+            180.08deg,
+            rgba(0, 13, 47, 0) 90%,
+            rgba(0, 14, 49, 0.8) 100%
+          ),
+          url('../img/Solar-mobile.jpg');
+          background-size: cover;
+          background-position: right 40%;
+          height: 100vh;
+      }
     }
     &.section-tile {
-      background: linear-gradient(
-          0deg,
-          rgba(0, 13, 47, 0) 55.07%,
-          rgba(0, 14, 49, 0.8) 90.5%
-        ),
-        linear-gradient(
-          180.08deg,
-          rgba(0, 13, 47, 0) 90%,
-          rgba(0, 14, 49, 0.8) 100%
-        ),
-        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/tile-mobile_kqzcgs.jpg');
-
-      background-size: cover;
-      background-position: left;
+      &:before {
+        background: linear-gradient(
+            0deg,
+            rgba(0, 13, 47, 0) 55.07%,
+            rgba(0, 14, 49, 0.8) 90.5%
+          ),
+          linear-gradient(
+            180.08deg,
+            rgba(0, 13, 47, 0) 90%,
+            rgba(0, 14, 49, 0.8) 100%
+          ),
+          url('../img/tile-mobile.png');
+          background-size: cover;
+          background-position: right 40%;
+          height: 100vh;
+      }
     }
     &.section-metal {
-      background: linear-gradient(
-          0deg,
-          rgba(0, 13, 47, 0) 55.07%,
-          rgba(0, 14, 49, 0.8) 90.5%
-        ),
-        linear-gradient(
-          180.08deg,
-          rgba(0, 13, 47, 0) 90%,
-          rgba(0, 14, 49, 0.8) 100%
-        ),
-        url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425222/metal-mobile_q60n8s.jpg');
-
-      background-size: cover;
-      background-position: 80% 40%;
+      &:before {
+        background: linear-gradient(
+            0deg,
+            rgba(0, 13, 47, 0) 55.07%,
+            rgba(0, 14, 49, 0.8) 90.5%
+          ),
+          linear-gradient(
+            180.08deg,
+            rgba(0, 13, 47, 0) 90%,
+            rgba(0, 14, 49, 0.8) 100%
+          ),
+          url('../img/metal-mobile.jpg');
+          background-size: cover;
+          background-position: right 40%;
+          height: 100vh;
+      }
     }
     &.section-footer {
-      background: url('https://res.cloudinary.com/remoteroofing/image/upload/v1616425384/footer-mobile_yqr0nq.jpg');
+      background: url('../img/footer-mobile.jpg');
     }
     .cta {
       flex-direction: column;

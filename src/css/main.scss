@@ -117,60 +117,82 @@ nav {
   }
 
   &.section-solar {
-    background: linear-gradient(
-        0deg,
-        rgba(0, 13, 47, 0) 55.07%,
-        rgba(0, 14, 49, 0.8) 90.5%
-      ),
-      linear-gradient(
-        180.08deg,
-        rgba(0, 13, 47, 0) 90%,
-        rgba(0, 14, 49, 0.8) 100%
-      ),
-      // url("../img/solar.png");
-      url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/solar_xws2k4.png');
-    background-size: cover;
-    background-position: center center;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+          0deg,
+          rgba(0, 13, 47, 0) 55.07%,
+          rgba(0, 14, 49, 0.4) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.4) 100%
+        ),
+        url('../img/Solar.jpg');
+      background-size: cover;
+      //background-position: center 90%;
+      //z-index: 4;
+    }
   }
   &.section-tile {
-    background: linear-gradient(
-        0deg,
-        rgba(0, 13, 47, 0) 55.07%,
-        rgba(0, 14, 49, 0.8) 90.5%
-      ),
-      linear-gradient(
-        180.08deg,
-        rgba(0, 13, 47, 0) 90%,
-        rgba(0, 14, 49, 0.8) 100%
-      ),
-      // url("../img/tile.png");
-      url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/tile_eobfng.png');
-
-    background-size: cover;
-    background-position: center center;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+          0deg,
+          rgba(0, 13, 47, 0) 55.07%,
+          rgba(0, 14, 49, 0.4) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.4) 100%
+        ),
+        url('../img/tile.png');
+      background-size: cover;
+      //background-position: center 90%;
+      //z-index: 4;
+    }
   }
   &.section-metal {
-    background: linear-gradient(
-        0deg,
-        rgba(0, 13, 47, 0) 55.07%,
-        rgba(0, 14, 49, 0.8) 90.5%
-      ),
-      linear-gradient(
-        180.08deg,
-        rgba(0, 13, 47, 0) 90%,
-        rgba(0, 14, 49, 0.8) 100%
-      ),
-      // url("../img/metal.png");
-      url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416077/metal_uualvm.png');
-
-    background-size: cover;
-    background-position: center center;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+          0deg,
+          rgba(0, 18, 55, 0) 20.07%,
+          rgba(0, 14, 49, 0.4) 90.5%
+        ),
+        linear-gradient(
+          180.08deg,
+          rgba(0, 13, 47, 0) 90%,
+          rgba(0, 14, 49, 0.4) 100%
+        ),
+        url('../img/metal.jpg');
+      background-size: cover;
+      //background-position: center 90%;
+      //z-index: 4;
+    }
   }
   &.section-footer {
     background:
 
-    // url("../img/footer.png");
-      url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416076/footer_igjqu4.png');
+      url("../img/footer.jpg");
+      //url('https://res.cloudinary.com/remoteroofing/image/upload/v1616416076/footer_igjqu4.png');
 
     .content {
       align-items: center;
